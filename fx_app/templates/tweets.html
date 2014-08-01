@@ -21,7 +21,7 @@
     <center>
 
      <br><br><br>
-
+            <!-- Class names should be more thoughtful / informative than `circle1` and `circle2` -->
             <div class="circle1" style = "display:inline-block"></div>
             <div class="circle1" style = "display:inline-block"></div>
             <div class="circle2" style = "display:inline-block"></div>
@@ -32,6 +32,7 @@
         <div id = "analysis_box">
 
             <center>
+            <!-- This styling should live in an external style sheet, not inline -->
 
             <div class = "label" style = "display:inline-block">
                 <p align="center">your term is</p>
@@ -52,7 +53,10 @@
             </center>
 
         </div>
-
+        
+        <!-- You shouldn't have all these extra spaces between your HTML attribute names and their values
+        e.g., href="something", NOT href = "something"
+        -->
          <a href = "{% url 'home' %}">
                <button class="pure-button" style="font-size: 30px">new search</button>
         </a>
