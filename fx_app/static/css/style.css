@@ -1,0 +1,103 @@
+
+        h1 {
+             font-size: 40;
+             font-family: 'Open Sans Condensed', serif;
+         }
+
+        h2 {
+             font-size: 10;
+             font-family: 'Open Sans Condensed', serif;
+         }
+
+        .button-xlarge {
+            font-size:125%
+            font-family: 'Open Sans Condensed', serif;
+            }
+
+        td {
+            font-family: "Open Sans Condensed", sans-serif;
+        }
+
+        .pure-button {
+            font-weight: lighter;
+        }
+
+        .circle1 {
+            width:75px;
+            height:75px;
+            border-radius:50px;
+            font-size:20px;
+            color:#fff;
+            line-height:100px;
+            text-align:center;
+            background:#E0EBEB;
+            }
+
+          .circle2 {
+            width:75px;
+            height:75px;
+            border-radius:50px;
+            font-size:20px;
+            color:#fff;
+            line-height:100px;
+            text-align:center;
+            background:#ffffff;
+            border:2px solid black;
+            }
+
+          .pos_sent {
+                width: 250px;
+                height: 250px;
+                border: 3px #CACACA;
+                background-color: #ffffff;
+                -webkit-border-radius: 150px;
+                -moz-border-radius: 150px;
+                border-radius: 150px;
+                -moz-box-shadow: inset 0px 0px 14px 0px #CACACA;
+                -webkit-box-shadow: inset 0px 0px 14px 0px #CACACA;
+                background-color:#F5FAE6;
+          }
+
+          .label {
+                width: 250px;
+                height: 250px;
+                border: 3px #CACACA;
+                background-color: #ffffff;
+                -webkit-border-radius: 150px;
+                -moz-border-radius: 150px;
+                border-radius: 150px;
+                -moz-box-shadow: inset 0px 0px 14px 0px #CACACA;
+                -webkit-box-shadow: inset 0px 0px 14px 0px #CACACA;
+          }
+
+          .neg_sent {
+                width: 250px;
+                height: 250px;
+                border: 3px #CACACA;
+                background-color: #ffffff;
+                -webkit-border-radius: 150px;
+                -moz-border-radius: 150px;
+                border-radius: 150px;
+                -moz-box-shadow: inset 0px 0px 14px 0px #CACACA;
+                -webkit-box-shadow: inset 0px 0px 14px 0px #CACACA;
+                background-color:#FFE6E6;
+          }
+
+            #info_box {
+                width:600px;
+                padding:30px;
+                border: 3px gray;
+                margin: 1px;
+                font-family: "Open Sans Condensed", sans-serif;
+                text-align: left;
+            }
+
+            #analysis_box {
+                width:1000px;
+                padding:30px;
+                border: 4px #80696a;
+                margin: 1px;
+                font-family: 'Oswald', sans-serif;
+                text-align: left;
+                font-size: 20px;
+            }
