@@ -56,6 +56,9 @@
                 -moz-box-shadow: inset 0px 0px 14px 0px #CACACA;
                 -webkit-box-shadow: inset 0px 0px 14px 0px #CACACA;
                 background-color:#F5FAE6;
+                margin-left: auto;
+                margin-right: auto;
+
           }
 
           .label {
@@ -68,6 +71,9 @@
                 border-radius: 150px;
                 -moz-box-shadow: inset 0px 0px 14px 0px #CACACA;
                 -webkit-box-shadow: inset 0px 0px 14px 0px #CACACA;
+                font-size: 40px;
+                margin-left: auto;
+                margin-right: auto;
           }
 
           .neg_sent {
@@ -81,6 +87,8 @@
                 -moz-box-shadow: inset 0px 0px 14px 0px #CACACA;
                 -webkit-box-shadow: inset 0px 0px 14px 0px #CACACA;
                 background-color:#FFE6E6;
+                margin-left: auto;
+                margin-right: auto;
           }
 
             #info_box {

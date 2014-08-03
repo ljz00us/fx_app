@@ -1,0 +1,17 @@
+Django==1.6.5
+Pillow==2.5.1
+South==1.0
+Sys==1.0
+beautifulsoup4==4.3.2
+dj-database-url==0.3.0
+dj-static==0.0.6
+django-toolbelt==0.0.1
+gunicorn==19.1.0
+oauthlib==0.6.3
+psycopg2==2.5.3
+pymongo==2.7.2
+requests==1.2.3
+requests-oauthlib==0.4.0
+static3==0.5.1
+tweepy==2.3
+wsgiref==0.1.2
