@@ -109,3 +109,10 @@
                 text-align: left;
                 font-size: 20px;
             }
+
+            #warning {
+                font-size: 10;
+                font-family: 'Open Sans Condensed', serif;
+                color: red;
+                display: none;
+            }

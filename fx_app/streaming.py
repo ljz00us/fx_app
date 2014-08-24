@@ -4,7 +4,6 @@ __author__ = 'gregorylevin'
 # taken from Sentdex
 # http://sentdex.com/sentiment-analysisbig-data-and-python-tutorials-algorithmic-trading/how-to-use-the-twitter-api-1-1-to-stream-tweets-in-python/
 
-
 from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener

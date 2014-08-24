@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
@@ -25,7 +24,6 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -53,7 +51,6 @@ ROOT_URLCONF = 'fx.urls'
 
 WSGI_APPLICATION = 'fx.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
@@ -77,7 +74,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 CKEY = '2iGOP4IROImLs1O08wZT6hQF9'
 CSECRET = 'PADFfUk5OZiBTFzCeqmmo28rTWfhGgkIZ2L7J7epgBTkedIRL3'
 ATOKEN = '276084536-5A31Kvaev87cpq1pm8panXDOwdJ2TCm4eXkskge0'
@@ -92,6 +88,7 @@ try:
     from local_settings import *
 except ImportError:
     pass
+
 
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
@@ -112,3 +109,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+

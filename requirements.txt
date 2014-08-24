@@ -1,5 +1,6 @@
 Django==1.6.5
 Pillow==2.5.1
+PyRSS2Gen==1.0.0
 South==1.0
 Sys==1.0
 beautifulsoup4==4.3.2
@@ -14,4 +15,5 @@ requests==1.2.3
 requests-oauthlib==0.4.0
 static3==0.5.1
 tweepy==2.3
+wordnik==2.1.2
 wsgiref==0.1.2
